@@ -39,9 +39,11 @@ class App extends Component{
   }
 
   render(){
+    
     return (
       <BrowserRouter>
           
+        
         <div className="App">
           <Navbar />
           <Route exact path='/' component={Home}/>
